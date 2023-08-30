@@ -4,7 +4,7 @@ import {
   AllPokemonsResult,
   PokemonsByTypeResult,
   PokeType,
-} from "../interfaces/types";
+} from "../Interfaces/types";
 
 interface ContextProps {
   types: PokeType[];

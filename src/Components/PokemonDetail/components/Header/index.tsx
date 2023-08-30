@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { ArrowLeftIcon } from "../../../../assets/arrows";
 import { PokeballIconBig } from "../../../../assets/pokeball";
-import { IPokemon } from "../../../../interfaces/interfaces";
+import { IPokemon } from "../../../../Interfaces/interfaces";
 
 import styles from "./styles.module.scss";
 

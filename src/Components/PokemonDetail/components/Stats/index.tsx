@@ -1,5 +1,5 @@
 import { HeightIcon, WeightIcon } from "../../../../assets/stats";
-import { IPokemon } from "../../../../interfaces/interfaces";
+import { IPokemon } from "../../../../Interfaces/interfaces";
 
 import styles from "./styles.module.scss";
 

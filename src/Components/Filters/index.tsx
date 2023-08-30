@@ -1,8 +1,8 @@
 import { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { PokemonContext } from "../../context/PokemonContext";
-import { usePagination } from "../../hooks/usePagination";
-import { PokeType } from "../../interfaces/types";
+import { PokemonContext } from "../../Context/PokemonContext";
+import { usePagination } from "../../Hooks/usePagination";
+import { PokeType } from "../../Interfaces/types";
 import { background } from "../../utils/BackgroundsByType";
 
 import styles from "./styles.module.scss";

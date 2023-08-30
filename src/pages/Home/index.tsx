@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { PokeballIconSmall } from "../../assets/pokeball";
-import { Filters } from "../../components/Filters";
-import { Pagination } from "../../components/Pagination";
-import { PokemonList } from "../../components/PokemonList";
+import { Filters } from "../../Components/Filters";
+import { Pagination } from "../../Components/Pagination";
+import { PokemonList } from "../../Components/PokemonList";
 import { PokemonContext } from "../../context/PokemonContext";
 import { usePagination } from "../../hooks/usePagination";
 
@@ -12,7 +12,7 @@ export const Home = () => {
   const { pokemonsFiltered } = useContext(PokemonContext);
   const { page, nextPage, previousPage, backToHome } = usePagination();
 
-  let perPage = 12;
+const perPage = 12;
 
   return (
     <div className={styles.home}>

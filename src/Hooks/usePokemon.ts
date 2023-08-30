@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { IPokemon } from "../interfaces/interfaces";
+import { IPokemon } from "../Interfaces/interfaces";
 
 export const usePokemon = (url?: string, id?: string) => {
   const [pokemon, setPokemon] = useState<null | undefined | IPokemon>();
