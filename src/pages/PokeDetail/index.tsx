@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 
-import { usePokemon } from "../../hooks/usePokemon";
+import { usePokemon } from "../../Hooks/usePokemon";
 import { PokemonDetail } from "../../Components/PokemonDetail";
 
 export const PokeDetail = () => {

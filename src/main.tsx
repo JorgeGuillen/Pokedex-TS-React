@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Home, PokeDetail } from "./pages";
 
 import "./index.scss";
-import PokemonProvider from "./context/PokemonContext";
+import PokemonProvider from "./Context/PokemonContext";
 
 const router = createBrowserRouter([
   {
